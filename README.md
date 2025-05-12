@@ -35,6 +35,14 @@ A comprehensive data analysis and visualization project using the **Our World In
    ```bash
    jupyter notebook
    ```
+   cd path/to/your/project-folder
+git init
+git remote add origin https://github.com/techwakanda/owid-covid-19-data.git
+git add .
+git commit -m "Initial commit - COVID-19 analysis project"
+git branch -M main
+git push -u origin main
+
 4. Open the analysis notebook (`COVID_Analysis.ipynb` or similar) and run the cells sequentially.
 5. Make sure the file `owid-covid-data.csv` is in the same directory.
 
